@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".banco_de_dados.Atualizar_cadastro"
+            android:exported="false" />
+        <activity
+            android:name=".tela_de_quando_entra"
+            android:exported="false" />
+        <activity
+            android:name=".VizualizazarObras"
+            android:exported="false" />
+        <activity
+            android:name=".CadastroObras_Sindico"
+            android:exported="false" />
+        <activity
+            android:name=".verAvisos"
+            android:exported="false" />
+        <activity
+            android:name=".sindicoCriarServicos"
+            android:exported="false" />
+        <activity
+            android:name=".areaSindico"
+            android:exported="false" />
+        <activity
+            android:name=".agendarServico"
+            android:exported="false" />
+        <activity
+            android:name=".codigocondominio"
+            android:exported="false" />
+        <activity
+            android:name=".cadastrodocondominio"
+            android:exported="false" />
+        <activity
+            android:name=".ListaServicos"
+            android:exported="false" />
+        <activity
+            android:name=".telainicial"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".cadastrarcondominio" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".enviaremail" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".tela4" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".cadastrarAvisos"
+            android:exported="false" />
+        <activity
+            android:name=".teladecadastro"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="senha">Senha:</string>
+    <string name="tela_de_cadastro">Cadastrar condomínio</string>
+    <string name="email">Email:</string>
+    <string name="nome">Nome:</string>
+    <string name="button">Button</string>
+    <string name="telefone">Telefone:</string>
+    <string name="cpf">Cpf:</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="voltar">Voltar</string>
+    <string name="atualizar_cadastro">Atualizar Cadastro</string>
+</resources>
